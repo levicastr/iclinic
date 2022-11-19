@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criar um ponto de coleta</title>
+     
+    <link rel="stylesheet" href="../iclinic/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../iclinic/styles/main.css"> 
+    <link rel="stylesheet" href="../iclinic/styles/create-point.css">
+    
+    <link rel="stylesheet" href="../iclinic/styles/responsive.css">
+
+</head>
+<body>
+    <div id="page-create-point">
+        <div class="content">
+            <header>
+                <img src="/assets/logo.svg" alt="logomarca">
+                <a href="">
+                    <span></span>
+                     voltar </a>
+            </header>     
+            <form action="">
+                <h1>Cadastro do Funcionário</h1>
+                
+                <fieldset>
+                    <legend>
+                        <h2>Dados do Funcionário</h2>
+                    </legend>
+
+                    <div class="field">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="address">Endereço</label>
+                            <input type="text" name="address" required>
+                        </div>
+                        <div class="field">
+                            <label for="address2">Número/Complemento</label>
+                            <input type="text" name="address2" required>
+                        </div>   
+                    </div>
+                    <div class="field-group"> 
+                        <div class="field">
+                            <label for="state">Estado</label>
+                            <select name="uf" required>
+                            <option value="">Selecione o Estado</option>
+                            </select>
+
+                            <input type="hidden" name="state">
+                        </div>   
+                        <div class="field">
+                            <label for="city">Cidade</label>
+                            <select name="city"disabled required> 
+                            <option value="">Selecione a cidade</option> 
+                            </select>
+                        </div>
+                       
+                    </div>
+
+
+                </fieldset>
+
+                <button type="submit"> cadastrar Funcionário </button>
+
+            </form>       
+          
+        </div>
+    </div> 
+
+    <script src="../iclinic/scripts/create-point.js"></script>
+</body>
+</html>

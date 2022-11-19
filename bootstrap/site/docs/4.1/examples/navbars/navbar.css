@@ -1,0 +1,12 @@
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+.navbar-brand {
+  color: darkturquoise;
+  font-family: fantasy;
+  font-size: large;
+}
